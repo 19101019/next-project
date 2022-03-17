@@ -1,0 +1,14 @@
+.bgContainer {
+  background-image: url(../images/landingPage/window-image.jpg);
+  background-color: white;
+  background-size: cover;
+  height: 780px;
+  filter: blur(16px);
+  background-position: center center;
+}
+.hero {
+  background: rgb(255, 255, 255);
+  filter: blur(8px);
+  mask: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  /* background-color: red; */
+}

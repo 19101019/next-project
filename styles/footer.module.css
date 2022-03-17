@@ -1,0 +1,12 @@
+.bg {
+  background: #2081e2;
+}
+
+.bg_dark {
+  background: #1868b7;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+}
