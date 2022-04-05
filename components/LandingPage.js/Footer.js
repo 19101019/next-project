@@ -87,7 +87,7 @@ export default function Footer() {
             </span>
           </div>
         </div>
-        <div className='flex justify-center lg:m-10 sm:mx-0 w-full'>
+        <div className='flex justify-center lg:mx-0 lg:my-10 sm:mx-0 w-full'>
           <hr className='w-2/3 text-slate-500' />
         </div>
         <div
@@ -223,7 +223,7 @@ export default function Footer() {
             </span>
           </div>
         </div>
-        <div className='flex justify-center lg:m-10 sm:mx-0 w-full'>
+        <div className='flex justify-center lg:m-0 lg:my-10 sm:mx-0 w-full'>
           <hr className='w-2/3 text-slate-500' />
         </div>
         <div className='flex justify-between text-slate-50 lg:px-28 py-10 sm:p-5'>

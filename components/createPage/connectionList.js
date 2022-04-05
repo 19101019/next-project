@@ -3,24 +3,6 @@ import Image from "next/image";
 import Img from "../../images/metamask.webp";
 // import "./connectionList.css";
 
-// const ReadMore = ({ children }) => {
-//   const text = children;
-//   const [isReadMore, setIsReadMore] = useState(true);
-//   const toggleReadMore = () => {
-//     const readHide = document.querySelector('.read-hide')
-//     readHide.style.display = 'none'
-//     setIsReadMore(!isReadMore);
-//   };
-//   return (
-//     <>
-    
-//     <h5 className="font-bold text-sm text">
-//       {isReadMore ? text.slice(0, 150) : text}
-      
-//     </h5>
-//     </>
-//   );
-// };
 
 export default function ConnectionList({children}) {
   const text = children;

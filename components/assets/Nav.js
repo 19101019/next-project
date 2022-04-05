@@ -82,11 +82,41 @@ export default function Nav() {
               {showResources && <ResourcesDropDown />}
             </li>
           </a>
+          <Link href="/products" passHref>
+            <li
+              className="relative cursor-pointer h-full flex items-center hover:text-gray-900 lg:font-poppinfont"
+              // onMouseEnter={() => setShowStats(true)}
+              // onMouseLeave={() => setShowStats(false)}
+            >
+              Products
+              {/* {showStats && <StatsDropDown />} */}
+            </li>
+          </Link>
+          <Link href="/dashboard" passHref>
+            <li
+              className="relative cursor-pointer h-full flex items-center hover:text-gray-900 lg:font-poppinfont"
+              // onMouseEnter={() => setShowStats(true)}
+              // onMouseLeave={() => setShowStats(false)}
+            >
+              Dashboard
+              {/* {showStats && <StatsDropDown />} */}
+            </li>
+          </Link>
           <Link href="/create" passHref>
             <li className="relative cursor-pointer h-full flex items-center hover:text-gray-900 lg:font-poppinfont lg:font-semibold ">
               <a href="#" className="lg:font-poppinfont">
                 Create
               </a>
+            </li>
+          </Link>
+          <Link href="/payment" passHref>
+            <li
+              className="relative cursor-pointer h-full flex items-center hover:text-gray-900 lg:font-poppinfont"
+              // onMouseEnter={() => setShowStats(true)}
+              // onMouseLeave={() => setShowStats(false)}
+            >
+              Payment
+              {/* {showStats && <StatsDropDown />} */}
             </li>
           </Link>
           <li
